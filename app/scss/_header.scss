@@ -1,0 +1,28 @@
+.header{
+
+
+
+    nav{
+        background-color: $black;
+        padding-top: 0.875rem;
+        padding-bottom: 0.875rem;
+
+
+        @include breakpoint-up(large){
+            background-color: $lightGrey;
+        }
+        
+    }
+
+    &__logo{
+
+        img{
+        width: 2.5rem;
+        height: 2.5rem;
+        filter: invert(100%);
+        }
+
+    }
+
+    
+}
