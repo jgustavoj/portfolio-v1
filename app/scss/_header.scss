@@ -9,7 +9,7 @@
 
 
         @include breakpoint-up(large){
-            background-color: $lightGrey;
+            background-color: $white;
         }
         
     }
@@ -20,6 +20,14 @@
         width: 2.5rem;
         height: 2.5rem;
         filter: invert(100%);
+        }
+
+    }
+    &__logo--dark{
+
+        img{
+        width: 2.5rem;
+        height: 2.5rem;
         }
 
     }

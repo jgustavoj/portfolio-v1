@@ -82,7 +82,7 @@ body {
 
 @media (min-width: 64em) {
   .header nav {
-    background-color: #f3f2f2;
+    background-color: white;
   }
 }
 
@@ -91,5 +91,10 @@ body {
   height: 2.5rem;
   -webkit-filter: invert(100%);
           filter: invert(100%);
+}
+
+.header__logo--dark img {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */
