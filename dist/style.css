@@ -97,4 +97,26 @@ body {
   width: 2.5rem;
   height: 2.5rem;
 }
+
+.hero__text {
+  position: absolute;
+  background-color: rgba(196, 196, 196, 0.26);
+  width: 100%;
+  padding-top: 8.3125rem;
+  padding-bottom: 8.3125rem;
+  margin-top: 4.6875rem;
+  margin-bottom: 4.6875rem;
+  z-index: 1;
+}
+
+.hero__rectangle {
+  position: absolute;
+  background-color: black;
+  width: 42.710625rem;
+  height: 32.560625rem;
+  left: 18.797rem;
+  top: 5.573rem;
+  -webkit-transform: rotate(9.67deg);
+          transform: rotate(9.67deg);
+}
 /*# sourceMappingURL=style.css.map */
