@@ -3,6 +3,7 @@
     
 
     .container{
+        position: relative;
    
         
     
@@ -19,6 +20,15 @@
         margin-bottom: 4.6875rem;
         z-index: 1;
 
+
+        @include breakpoint-up(large){
+            width: 62%;
+            padding-top: 10.313rem;
+            padding-bottom: 10.313rem;
+            margin-right: 4.0625rem;
+            margin-left: 4.0625rem;
+        }
+
     }
 
     &__social{
@@ -28,18 +38,30 @@
 
     &__rectangle{
 
-            position: absolute;
-            background-color: $black;
-            width: 42.710625rem;
-            height: 32.560625rem;
-            left: 18.797rem;
-            top: 5.573rem;
-            transform: rotate(9.67deg);
-        
-
-
+    @include breakpoint-down(medium){
+        position: absolute;
+        background-color: $black;
+        width: 42.710625rem;
+        height: 32.560625rem;
+        left: 82%;
+        top: 1.573rem;
+        transform: rotate(9.67deg);
     }
 
+        
+
+    @include breakpoint-up(large){
+        position: absolute;
+        background-color: $black;
+        width: 164.711rem;
+        height: 41.561rem;
+        left: 55%;
+        top: 4.573rem;
+        transform: rotate(9.67deg);
+        z-index: -1;
+
+    }
+}
 
 
 }

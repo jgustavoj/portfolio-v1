@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400&display=swap"
         rel="stylesheet">
@@ -12,14 +12,17 @@
 </head>
 
 <body>
+
     <header class="header">
         <nav class="container--pall">
-            <a href="/" class="header__logo">
-                <img class="hide-for-desktop" src="./images/muffin-light.svg" alt="Muffin">
-            </a>
-            <a href="/" class="header__logo--dark">
-                <img class="hide-for-mobile" src="./images/muffin-dark.svg" alt="Muffin">
-            </a>
+            <div class="container">
+                <a href="/" class="header__logo">
+                    <img class="hide-for-desktop" src="./images/muffin-light.svg" alt="Muffin">
+                </a>
+                <a href="/" class="header__logo--dark">
+                    <img class="hide-for-mobile" src="./images/muffin-dark.svg" alt="Muffin">
+                </a>
+            </div>
         </nav>
 
 
@@ -43,7 +46,9 @@
     </section>
 
 
+
 </body>
+
 
 <script src="app/js/home.js"></script>
 

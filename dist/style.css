@@ -17,6 +17,7 @@ body {
   font-weight: 300;
   color: black;
   line-height: 1.3;
+  overflow-x: hidden;
 }
 
 .container {
@@ -98,6 +99,10 @@ body {
   height: 2.5rem;
 }
 
+.hero .container {
+  position: relative;
+}
+
 .hero__text {
   position: absolute;
   background-color: rgba(196, 196, 196, 0.26);
@@ -109,14 +114,40 @@ body {
   z-index: 1;
 }
 
-.hero__rectangle {
-  position: absolute;
-  background-color: black;
-  width: 42.710625rem;
-  height: 32.560625rem;
-  left: 18.797rem;
-  top: 5.573rem;
-  -webkit-transform: rotate(9.67deg);
-          transform: rotate(9.67deg);
+@media (min-width: 64em) {
+  .hero__text {
+    width: 62%;
+    padding-top: 10.313rem;
+    padding-bottom: 10.313rem;
+    margin-right: 4.0625rem;
+    margin-left: 4.0625rem;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .hero__rectangle {
+    position: absolute;
+    background-color: black;
+    width: 42.710625rem;
+    height: 32.560625rem;
+    left: 82%;
+    top: 1.573rem;
+    -webkit-transform: rotate(9.67deg);
+            transform: rotate(9.67deg);
+  }
+}
+
+@media (min-width: 64em) {
+  .hero__rectangle {
+    position: absolute;
+    background-color: black;
+    width: 164.711rem;
+    height: 41.561rem;
+    left: 55%;
+    top: 4.573rem;
+    -webkit-transform: rotate(9.67deg);
+            transform: rotate(9.67deg);
+    z-index: -1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
