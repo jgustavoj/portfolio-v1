@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 300;
   color: black;
   line-height: 1.3;
@@ -75,10 +75,6 @@ body {
   }
 }
 
-.fab {
-  color: red;
-}
-
 .header nav {
   background-color: black;
   padding-top: 0.875rem;
@@ -138,10 +134,81 @@ body {
 }
 
 .hero__social {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+      grid-template-areas: "link github twitter";
+  gap: 1rem;
   position: absolute;
-  border: 1px solid red;
-  top: 363px;
-  left: 80%;
+  top: 354px;
+  left: 29%;
+  z-index: 1;
+}
+
+@media (min-width: 40em) {
+  .hero__social {
+    top: 395px;
+    left: 45%;
+  }
+}
+
+@media (min-width: 64em) {
+  .hero__social {
+    top: 363px;
+    left: 80%;
+  }
+}
+
+.hero__link {
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.hero__link:hover {
+  color: blue;
+}
+
+@media (max-width: 63.9375em) {
+  .hero__link {
+    color: black;
+    font-size: 1rem;
+  }
+}
+
+.hero__github {
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.hero__github:hover {
+  color: purple;
+}
+
+@media (max-width: 63.9375em) {
+  .hero__github {
+    color: black;
+    font-size: 1rem;
+  }
+}
+
+.hero__twitter {
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.hero__twitter:hover {
+  color: #25bcee;
+}
+
+@media (max-width: 63.9375em) {
+  .hero__twitter {
+    color: black;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 63.9375em) {
@@ -173,7 +240,7 @@ body {
 
 .hero__heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 2.5rem;
 }
 

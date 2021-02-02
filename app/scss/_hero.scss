@@ -42,16 +42,82 @@
     }
 
     &__social{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas: "link github twitter";
+        gap: 1rem;
         position: absolute;
-        border: 1px solid red;
-        top: 363px; //test
-        left: 80%; //test
+        top: 354px;
+        left: 29%;
+        z-index: 1;
+        //filter: invert(100%);
+
+        @include breakpoint-up(medium){
+            top: 395px;
+            left: 45%;
+            
+       
+
+        }
         
+        @include breakpoint-up(large){
+            top: 363px; //test
+            left: 80%;
+            //filter: none;
+
+
+        }
 
 
      
+    }
 
+    &__link{
+        color: $white;
+        transition: color 300ms ease-in-out;
 
+        &:hover {
+            color: blue;
+            
+        }
+
+        @include breakpoint-down(medium){
+            color: $black;
+            font-size: 1rem;
+
+        }
+    }
+
+    &__github{
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        &:hover {
+            color: purple;
+           
+        }
+
+        @include breakpoint-down(medium){
+            color: $black;
+            font-size: 1rem;
+
+        }
+    }
+
+    &__twitter{
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        &:hover {
+            color: rgb(37, 188, 238);
+           
+        }
+
+        @include breakpoint-down(medium){
+            color: $black;
+            font-size: 1rem;
+
+        }
     }
 
     &__rectangle{
