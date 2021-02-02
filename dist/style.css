@@ -75,6 +75,10 @@ body {
   }
 }
 
+.fab {
+  color: red;
+}
+
 .header nav {
   background-color: black;
   padding-top: 0.875rem;
@@ -131,6 +135,13 @@ body {
     margin-right: 4.0625rem;
     margin-left: 4.0625rem;
   }
+}
+
+.hero__social {
+  position: absolute;
+  border: 1px solid red;
+  top: 363px;
+  left: 80%;
 }
 
 @media (max-width: 63.9375em) {
