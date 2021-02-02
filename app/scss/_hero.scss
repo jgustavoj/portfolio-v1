@@ -11,20 +11,30 @@
     }
 
     &__text{
-        position: absolute;
-        background-color: $lightGrey;
-        width: 100%;
-        padding-top: 8.3125rem;
-        padding-bottom: 8.3125rem;
-        margin-top: 4.6875rem;
-        margin-bottom: 4.6875rem;
-        z-index: 1;
+
+      
+            position: absolute;
+            background-color: $lightGrey;
+            width: 100%;
+            padding-top: 3.6875rem;
+            padding-bottom: 6.688rem;
+            padding-left: 1rem;
+            margin-top: 4.6875rem;
+            margin-bottom: 4.6875rem;
+            z-index: 1;
+
+
+        @include breakpoint-up(medium){
+            padding-left: 1.7rem;
+            margin-left: 5rem;
+        }
 
 
         @include breakpoint-up(large){
-            width: 62%;
-            padding-top: 10.313rem;
-            padding-bottom: 10.313rem;
+            width: 63%;
+            padding-top: 8.313rem; //7.313rem
+            padding-bottom: 8.313rem;
+            padding-left: 5rem;
             margin-right: 4.0625rem;
             margin-left: 4.0625rem;
         }
@@ -42,8 +52,8 @@
         position: absolute;
         background-color: $black;
         width: 42.710625rem;
-        height: 32.560625rem;
-        left: 82%;
+        height: 39.561rem;
+        left: 80%;
         top: 1.573rem;
         transform: rotate(9.67deg);
     }
@@ -53,10 +63,10 @@
     @include breakpoint-up(large){
         position: absolute;
         background-color: $black;
-        width: 164.711rem;
-        height: 41.561rem;
+        width: 292.711rem; //214.711rem; //164.711rem;
+        height: 71.561rem; //55.561rem; //41.561rem;
         left: 55%;
-        top: 4.573rem;
+        top: 15.573rem; //5.573rem; //4.573rem; 
         transform: rotate(9.67deg);
         z-index: -1;
 
@@ -64,4 +74,33 @@
 }
 
 
+
+
+    &__heading{
+        font-family:  'Montserrat', sans-serif;
+        font-size: $font-md;
+        line-height: 2.5rem;
+
+        b{
+            font-weight: 700;
+        }
+
+    @include breakpoint-up(medium){
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+
+        @include breakpoint-up(large){
+            font-size: 2.235rem;
+            line-height: 3.6785rem;
+    
+     
+    }
+
+
+    }
+
 }
+
+
