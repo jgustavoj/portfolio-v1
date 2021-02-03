@@ -40,7 +40,7 @@
         margin-left: 8%;//10.063rem;
     }
 
-}
+    }
    
    &__text{
     font-family:  'Montserrat', sans-serif;
@@ -54,7 +54,7 @@
     @include breakpoint-up(medium){
         font-size: 1.5rem;
         line-height: 3rem;
-}
+    }
 
 
     @include breakpoint-up(large){
@@ -63,14 +63,11 @@
         padding-left: 0.9rem;
 
  
-}
+    }
 
 
-}
+    }
 
-    
-
-  
 
     &__social{
         position: absolute;
@@ -98,9 +95,8 @@
 
 
      
-
-
     }
+
 
     &__rectangle{
 
