@@ -89,59 +89,59 @@ body{
 
 
 
+//Social Links 
+.linkedin{
 
-    .linkedin{
+    color: $white;
+    transition: color 300ms ease-in-out;
 
-        color: $white;
-        transition: color 300ms ease-in-out;
+    &:hover {
+        color: blue;
+        
+    }
 
-        &:hover {
-            color: blue;
-            
-        }
-
-        @include breakpoint-down(medium){
-            color: $black;
-            font-size: 1rem;
-
-        }
+    @include breakpoint-down(medium){
+        color: $black;
+        font-size: 1rem;
 
     }
 
-    .github{
+}
 
-        color: $white;
-        transition: color 300ms ease-in-out;
+.github{
 
-        &:hover {
-            color: purple;
-           
-        }
+    color: $white;
+    transition: color 300ms ease-in-out;
 
-        @include breakpoint-down(medium){
-            color: $black;
-            font-size: 1rem;
+    &:hover {
+        color: purple;
+        
+    }
 
-        }
+    @include breakpoint-down(medium){
+        color: $black;
+        font-size: 1rem;
 
     }
 
-    .twitter{
+}
 
-        color: $white;
-        transition: color 300ms ease-in-out;
+.twitter{
 
-        &:hover {
-            color: rgb(37, 188, 238);
-           
-        }
+    color: $white;
+    transition: color 300ms ease-in-out;
 
-        @include breakpoint-down(medium){
-            color: $black;
-            font-size: 1rem;
+    &:hover {
+        color: rgb(37, 188, 238);
+        
+    }
 
-        }
-
+    @include breakpoint-down(medium){
+        color: $black;
+        font-size: 1rem;
 
     }
+
+
+}
 

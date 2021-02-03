@@ -1,132 +1,128 @@
 .hero{
-   
+    display: flex;
     position: relative;
-    margin-left: auto;
-   //margin-left: 7rem;
- 
-
-   @include breakpoint-up(large){
-       //margin-left: auto;
-       margin-left: 7rem;
-   }
         
 
-   &__heading{
 
-      
-    position: absolute;
-    background-color: $lightGrey;
-    width: 100%;
-    padding-top: 3.6875rem;
-    padding-bottom: 6.688rem;
-    padding-left: 1rem;
-    margin-top: 4.6875rem;
-    margin-bottom: 4.6875rem;
-    z-index: 1;
+    &__heading{
+        align-items: center;
+        //background-color: $lightGrey;
+        width: 104%;    
+        padding-top: 3.6875rem;
+        padding-bottom: 6.688rem;
+        padding-left: 1rem;
+        margin-top: 4.6875rem;
+        margin-bottom: 4.6875rem;
+        z-index: 1;
 
+        @include breakpoint-up(medium){
+            width: 85%;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
 
-    @include breakpoint-up(medium){
-        padding-left: 3.7rem;
-        margin-left: 5rem;
-    }
+        @include breakpoint-up(large){
+            margin-left: 12%;
+            margin-right: 7rem;
+            padding-left: 3rem;
+            padding-bottom: 3.688rem;
+        }
 
-
-    @include breakpoint-up(large){
-        width: 63%;
-        padding-top: 8.313rem; //7.313rem
-        padding-bottom: 8.313rem;
-        padding-left: 4%;//5rem;
-        //margin-right: 4.063rem;
-        margin-left: 8%;//10.063rem;
-    }
-
-    }
-   
-   &__text{
-    font-family:  'Montserrat', sans-serif;
-    font-size: $font-md;
-    line-height: 2.5rem;
-
-    b{
-        font-weight: 700;
-    }
-
-    @include breakpoint-up(medium){
-        font-size: 1.5rem;
-        line-height: 3rem;
-    }
-
-
-    @include breakpoint-up(large){
-        font-size: 1.8rem;
-        line-height: 4.679rem;//3.6785rem;
-        padding-left: 0.9rem;
-
- 
-    }
+        @include breakpoint-up(xlarge){
+            margin-left: 20%;
+        }
 
 
     }
 
+    &__rectangle{
+        background-color: $black;
+        color: $white;
+        width: 17.711rem;
+        padding-top: 3.6875rem;
+        padding-bottom: 6.688rem;
+        padding-left: 1rem;
+        margin-top: -4.312rem;
+        margin-right: -15rem;
+        margin-bottom: -3.312rem;
+        margin-left: -4rem;
+        transform: rotate(8.67deg);
+
+        @include breakpoint-up(medium){
+            width: 85%;
+            margin-left: -13rem;
+            margin-bottom: -6.312rem;
+        }
+       
+        @include breakpoint-up(large){
+            width: 72%; 
+            margin-top: -10.312rem;
+            margin-bottom: -11.312rem;
+            z-index: -1;
+        }
+
+        @include breakpoint-up(xlarge){
+            width: 88%;        
+        
+        }
+
+
+        
+    }
+
+
+    &__text{
+        font-family:  'Montserrat', sans-serif;
+        font-size: 1.16rem;
+        line-height: 2.5rem;
+        padding-left: 1rem;
+
+        b{
+            font-weight: 700;
+        }
+       
+
+
+        @include breakpoint-up(medium){
+            font-size: 1.4rem;
+            line-height: 3rem;
+            padding-left: 2rem;
+        }
+
+        @include breakpoint-up(large){
+            font-size: 2rem;
+            line-height: 4rem;
+        }
+
+        @include breakpoint-up(xlarge){
+            padding-left: 5rem;
+        }
+    }
 
     &__social{
         position: absolute;
         display: grid;
-        gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr;
-        top: 364px;
-        left: 34%;
-        
-        
+        gap: 1rem;
+        margin-top: 1.5rem;
+        top: 65%;
+        left: 32%;
+
         @include breakpoint-up(medium){
-            grid-template-columns: 1fr;
-            top: 213px;
-            left: 74%;
-
+            left: 39%;
+            margin-top: 2.5rem;
         }
-        
-       
-
+    
         @include breakpoint-up(large){
-            grid-template-columns: 1fr 1fr 1fr;
-            top: 376px; 
-            left: 80%; 
+            left: 80%;
+            top: 40%;
+
         }
 
-
-     
-    }
-
-
-    &__rectangle{
-
-        position: absolute;
-        background-color: $black;
-        width: 35.711rem;
-        height: 41.561rem;
-        left: 83%;
-        top: 1.573rem;
-        transform: rotate(8.67deg);
     
 
-        
+    }   
 
-    @include breakpoint-up(large){
-        position: absolute;
-        background-color: $black;
-        width: 51.711rem; //214.711rem; //164.711rem;
-        height: 62.611rem; //55.561rem; //41.561rem;
-        left: 60.5%;
-        top: -4.427rem; //5.573rem; //4.573rem; 
-        transform: rotate(8.67deg);
-        z-index: -1;
-
-    }
-}
-
-
-
+   
 
 }
-
-
