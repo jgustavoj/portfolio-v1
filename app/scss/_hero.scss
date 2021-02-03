@@ -1,52 +1,100 @@
 .hero{
    
-    
+    position: relative;
+    margin-left: auto;
+   //margin-left: 7rem;
+ 
 
-    .container{
-        position: relative;
-   
+   @include breakpoint-up(large){
+       //margin-left: auto;
+       margin-left: 7rem;
+   }
         
-    
 
-    }
-
-    &__text{
+   &__heading{
 
       
-            position: absolute;
-            background-color: $lightGrey;
-            width: 100%;
-            padding-top: 3.6875rem;
-            padding-bottom: 6.688rem;
-            padding-left: 1rem;
-            margin-top: 4.6875rem;
-            margin-bottom: 4.6875rem;
-            z-index: 1;
+    position: absolute;
+    background-color: $lightGrey;
+    width: 100%;
+    padding-top: 3.6875rem;
+    padding-bottom: 6.688rem;
+    padding-left: 1rem;
+    margin-top: 4.6875rem;
+    margin-bottom: 4.6875rem;
+    z-index: 1;
 
 
-        @include breakpoint-up(medium){
-            padding-left: 1.7rem;
-            margin-left: 5rem;
-        }
-
-
-        @include breakpoint-up(large){
-            width: 63%;
-            padding-top: 8.313rem; //7.313rem
-            padding-bottom: 8.313rem;
-            padding-left: 5rem;
-            margin-right: 4.0625rem;
-            margin-left: 4.0625rem;
-        }
-
+    @include breakpoint-up(medium){
+        padding-left: 3.7rem;
+        margin-left: 5rem;
     }
+
+
+    @include breakpoint-up(large){
+        width: 63%;
+        padding-top: 8.313rem; //7.313rem
+        padding-bottom: 8.313rem;
+        padding-left: 4%;//5rem;
+        //margin-right: 4.063rem;
+        margin-left: 8%;//10.063rem;
+    }
+
+}
+   
+   &__text{
+    font-family:  'Montserrat', sans-serif;
+    font-size: $font-md;
+    line-height: 2.5rem;
+
+    b{
+        font-weight: 700;
+    }
+
+    @include breakpoint-up(medium){
+        font-size: 1.5rem;
+        line-height: 3rem;
+}
+
+
+    @include breakpoint-up(large){
+        font-size: 1.8rem;
+        line-height: 4.679rem;//3.6785rem;
+        padding-left: 0.9rem;
+
+ 
+}
+
+
+}
+
+    
+
+  
 
     &__social{
         position: absolute;
-        border: 1px solid red;
-        top: 363px; //test
-        left: 80%; //test
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        top: 364px;
+        left: 34%;
         
+        
+        @include breakpoint-up(medium){
+            grid-template-columns: 1fr;
+            top: 213px;
+            left: 74%;
+
+        }
+        
+       
+
+        @include breakpoint-up(large){
+            grid-template-columns: 1fr 1fr 1fr;
+            top: 376px; 
+            left: 80%; 
+        }
 
 
      
@@ -56,26 +104,25 @@
 
     &__rectangle{
 
-    @include breakpoint-down(medium){
         position: absolute;
         background-color: $black;
-        width: 42.710625rem;
-        height: 39.561rem;
-        left: 80%;
+        width: 35.711rem;
+        height: 41.561rem;
+        left: 83%;
         top: 1.573rem;
-        transform: rotate(9.67deg);
-    }
+        transform: rotate(8.67deg);
+    
 
         
 
     @include breakpoint-up(large){
         position: absolute;
         background-color: $black;
-        width: 292.711rem; //214.711rem; //164.711rem;
-        height: 71.561rem; //55.561rem; //41.561rem;
-        left: 55%;
-        top: 15.573rem; //5.573rem; //4.573rem; 
-        transform: rotate(9.67deg);
+        width: 51.711rem; //214.711rem; //164.711rem;
+        height: 62.611rem; //55.561rem; //41.561rem;
+        left: 60.5%;
+        top: -4.427rem; //5.573rem; //4.573rem; 
+        transform: rotate(8.67deg);
         z-index: -1;
 
     }
@@ -83,31 +130,6 @@
 
 
 
-
-    &__heading{
-        font-family:  'Montserrat', sans-serif;
-        font-size: $font-md;
-        line-height: 2.5rem;
-
-        b{
-            font-weight: 700;
-        }
-
-    @include breakpoint-up(medium){
-        font-size: 1.5rem;
-        line-height: 3rem;
-    }
-
-
-        @include breakpoint-up(large){
-            font-size: 2.235rem;
-            line-height: 3.6785rem;
-    
-     
-    }
-
-
-    }
 
 }
 

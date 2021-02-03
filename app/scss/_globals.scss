@@ -87,6 +87,61 @@ body{
 }
 
 
-.fab{
-    color: red;
-}
+
+
+
+    .linkedin{
+
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        &:hover {
+            color: blue;
+            
+        }
+
+        @include breakpoint-down(medium){
+            color: $black;
+            font-size: 1rem;
+
+        }
+
+    }
+
+    .github{
+
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        &:hover {
+            color: purple;
+           
+        }
+
+        @include breakpoint-down(medium){
+            color: $black;
+            font-size: 1rem;
+
+        }
+
+    }
+
+    .twitter{
+
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        &:hover {
+            color: rgb(37, 188, 238);
+           
+        }
+
+        @include breakpoint-down(medium){
+            color: $black;
+            font-size: 1rem;
+
+        }
+
+
+    }
+
