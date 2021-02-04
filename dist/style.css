@@ -29,13 +29,14 @@ body {
   padding-top: 4.375rem;
   padding-right: 1.25rem;
   padding-bottom: 4.375rem;
-  padding-left: 1.25rem;
+  padding-left: 8%;
 }
 
 @media (min-width: 64em) {
   .container--pall {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    padding-left: 15%;
   }
 }
 
@@ -82,7 +83,7 @@ body {
 }
 
 .linkedin:hover {
-  color: blue;
+  color: #0077b5;
 }
 
 @media (max-width: 63.9375em) {
@@ -116,7 +117,7 @@ body {
 }
 
 .twitter:hover {
-  color: #25bcee;
+  color: #55acee;
 }
 
 @media (max-width: 63.9375em) {
@@ -182,14 +183,13 @@ body {
   .hero__heading {
     margin-left: 12%;
     margin-right: 7rem;
-    padding-left: 3rem;
     padding-bottom: 3.688rem;
   }
 }
 
 @media (min-width: 87.5em) {
   .hero__heading {
-    margin-left: 20%;
+    margin-left: 16%;
   }
 }
 
@@ -206,6 +206,7 @@ body {
   margin-left: -4rem;
   -webkit-transform: rotate(8.67deg);
           transform: rotate(8.67deg);
+  z-index: -1;
 }
 
 @media (min-width: 40em) {
@@ -221,7 +222,6 @@ body {
     width: 72%;
     margin-top: -10.312rem;
     margin-bottom: -11.312rem;
-    z-index: -1;
   }
 }
 
@@ -246,7 +246,6 @@ body {
   .hero__text {
     font-size: 1.4rem;
     line-height: 3rem;
-    padding-left: 2rem;
   }
 }
 
@@ -254,12 +253,6 @@ body {
   .hero__text {
     font-size: 2rem;
     line-height: 4rem;
-  }
-}
-
-@media (min-width: 87.5em) {
-  .hero__text {
-    padding-left: 5rem;
   }
 }
 
@@ -286,6 +279,66 @@ body {
   .hero__social {
     left: 80%;
     top: 40%;
+  }
+}
+
+.about {
+  padding-top: 4.437rem;
+  padding-bottom: 4.437rem;
+  background-color: white;
+}
+
+.about__content {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 40em) {
+  .about__content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .about__content {
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+  }
+}
+
+@media (min-width: 87.5em) {
+  .about__content {
+    margin-left: 14.5rem;
+    margin-right: 14.5rem;
+  }
+}
+
+.about__image {
+  background-image: url(/images/resize.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 8.875rem;
+  width: auto;
+  border-radius: 10px;
+}
+
+@media (min-width: 40em) {
+  .about__image {
+    height: 20.875rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .about__image {
+    height: 27.875rem;
+  }
+}
+
+@media (min-width: 87.5em) {
+  .about__image {
+    height: 35.875rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

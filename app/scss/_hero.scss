@@ -24,12 +24,12 @@
         @include breakpoint-up(large){
             margin-left: 12%;
             margin-right: 7rem;
-            padding-left: 3rem;
+            //padding-left: 3rem;
             padding-bottom: 3.688rem;
         }
 
         @include breakpoint-up(xlarge){
-            margin-left: 20%;
+            margin-left: 16%;
         }
 
 
@@ -47,6 +47,7 @@
         margin-bottom: -3.312rem;
         margin-left: -4rem;
         transform: rotate(8.67deg);
+        z-index: -1;
 
         @include breakpoint-up(medium){
             width: 85%;
@@ -58,7 +59,6 @@
             width: 72%; 
             margin-top: -10.312rem;
             margin-bottom: -11.312rem;
-            z-index: -1;
         }
 
         @include breakpoint-up(xlarge){
@@ -86,7 +86,7 @@
         @include breakpoint-up(medium){
             font-size: 1.4rem;
             line-height: 3rem;
-            padding-left: 2rem;
+            //padding-left: 2rem;
         }
 
         @include breakpoint-up(large){
@@ -95,7 +95,7 @@
         }
 
         @include breakpoint-up(xlarge){
-            padding-left: 5rem;
+            //padding-left: 5rem;
         }
     }
 
