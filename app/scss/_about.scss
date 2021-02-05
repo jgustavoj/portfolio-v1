@@ -63,7 +63,24 @@
   }
 
   &__text{
+
+    margin: 2.8125rem 0;
+
+    b{
+      @include breakpoint-up(medium){
+        font-size: 1.4rem;
+      }
+   }
         
+    p{
+      color: $lightGrey;
+      font-size: $font-sm;
+      margin: 2.5rem 0;
+
+      @include breakpoint-up(medium){
+        font-size: $font-md;
+      }
+    }
 
       
   }

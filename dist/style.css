@@ -244,15 +244,15 @@ body {
 
 @media (min-width: 40em) {
   .hero__text {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 3rem;
   }
 }
 
 @media (min-width: 64em) {
   .hero__text {
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
   }
 }
 
@@ -264,7 +264,7 @@ body {
       grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   margin-top: 1.5rem;
-  top: 65%;
+  top: 73%;
   left: 32%;
 }
 
@@ -277,7 +277,7 @@ body {
 
 @media (min-width: 64em) {
   .hero__social {
-    left: 80%;
+    left: 75%;
     top: 40%;
   }
 }
@@ -339,6 +339,28 @@ body {
 @media (min-width: 87.5em) {
   .about__image {
     height: 35.875rem;
+  }
+}
+
+.about__text {
+  margin: 2.8125rem 0;
+}
+
+@media (min-width: 40em) {
+  .about__text b {
+    font-size: 1.4rem;
+  }
+}
+
+.about__text p {
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1rem;
+  margin: 2.5rem 0;
+}
+
+@media (min-width: 40em) {
+  .about__text p {
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

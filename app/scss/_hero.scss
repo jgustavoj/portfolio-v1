@@ -84,14 +84,14 @@
 
 
         @include breakpoint-up(medium){
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             line-height: 3rem;
             //padding-left: 2rem;
         }
 
         @include breakpoint-up(large){
-            font-size: 2rem;
-            line-height: 4rem;
+            font-size: 2.2rem;
+            line-height: 3.5rem;
         }
 
         @include breakpoint-up(xlarge){
@@ -105,7 +105,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
         margin-top: 1.5rem;
-        top: 65%;
+        top: 73%;
         left: 32%;
 
         @include breakpoint-up(medium){
@@ -114,7 +114,7 @@
         }
     
         @include breakpoint-up(large){
-            left: 80%;
+            left: 75%;
             top: 40%;
 
         }
