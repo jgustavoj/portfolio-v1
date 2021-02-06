@@ -687,4 +687,141 @@ body {
   color: black;
   font-weight: 400;
 }
+
+.footer {
+  background-color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 64em) {
+  .footer {
+    padding: 0;
+  }
+}
+
+.footer__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 2fr 0.5fr;
+      grid-template-columns: 0.5fr 2fr 0.5fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "logo . ." ". social ." ". year ." ". . .";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 0.98rem;
+}
+
+@media (min-width: 64em) {
+  .footer__content {
+    -ms-grid-columns: 0.5fr 2fr 0.5fr;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: ". . ." "logo year social" ". . .";
+  }
+}
+
+.footer__logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.footer__logo img {
+  width: 2.5rem;
+  height: 2.5rem;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.footer__btt {
+  grid-area: btt;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: white;
+}
+
+.footer__social {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: social;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.footer__social a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.footer__linkedin {
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.footer__linkedin .fa-2x {
+  font-size: 1.5em;
+}
+
+.footer__linkedin:hover {
+  color: #0077b5;
+}
+
+.footer__github {
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.footer__github .fa-2x {
+  font-size: 1.5em;
+}
+
+.footer__github:hover {
+  color: purple;
+}
+
+.footer__twitter {
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.footer__twitter .fa-2x {
+  font-size: 1.5em;
+}
+
+.footer__twitter:hover {
+  color: #55acee;
+}
+
+.footer__mail {
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.footer__mail .fa-2x {
+  font-size: 1.5em;
+}
+
+.footer__mail:hover {
+  color: #d60505;
+}
+
+.footer__year {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: year;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,161 @@
+.footer{
+    background-color: $black;
+    //margin-top: 4.437rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include breakpoint-up(large){
+        padding: 0;
+    }
+
+   &__content{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "logo . ."
+        ". social ."
+        ". year ."
+        ". . .";
+        align-items: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 0.98rem;
+
+        @include breakpoint-up(large){
+            grid-template-columns: 0.5fr 2fr 0.5fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: 
+            ". . ."
+            "logo year social"
+            ". . .";
+        
+
+        }
+
+
+   }
+
+    &__logo{
+        grid-area: logo;
+        justify-self: center;
+
+        img{
+            width: 2.5rem;
+            height: 2.5rem;
+            filter: invert(100%);
+            }
+
+
+    }   
+
+    &__btt{
+        grid-area: btt;
+        justify-self: center;
+        color: $white;
+
+
+    }
+
+    &__social{
+        grid-area: social;
+        justify-self: center;
+        
+        a:not(:last-child){ //doesnt apply syling for the last child of anchors
+            margin-right: 1rem;
+    
+        }
+
+
+    }
+
+    &__linkedin{
+
+        
+    color: $white;
+    transition: color 300ms ease-in-out;
+
+    .fa-2x {
+        font-size: 1.5em;
+    }
+
+    &:hover {
+        color:rgba(0, 119, 181, 1);
+        
+    }
+
+   
+
+
+
+    }
+
+
+    &__github{
+
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        .fa-2x {
+            font-size: 1.5em;
+        }
+    
+        &:hover {
+            color: purple;
+            
+        }
+    
+      
+
+
+    }
+    
+    &__twitter{
+
+  
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        .fa-2x {
+            font-size: 1.5em;
+        }
+    
+        &:hover {
+            color: rgba(85, 172, 238, 1);
+            
+        }
+    
+     
+
+    }
+    
+    &__mail{
+
+  
+        color: $white;
+        transition: color 300ms ease-in-out;
+
+        .fa-2x {
+            font-size: 1.5em;
+        }
+    
+        &:hover {
+            color: rgb(214, 5, 5);
+            
+        }
+    
+
+
+    }
+
+    &__year{
+        grid-area: year;
+        justify-self: center;
+        color: $white;
+
+
+    }
+
+
+
+}
