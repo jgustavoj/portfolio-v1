@@ -36,6 +36,7 @@
 
     &__1{
         padding-top: 4.437rem;
+        cursor: pointer;
 
 
        @include breakpoint-up(medium){
@@ -78,6 +79,7 @@
  
     &__2{ 
         padding-top: 4.437rem;
+        cursor: pointer;
         
         @include breakpoint-up(medium){
             display: flex;
@@ -125,6 +127,7 @@
 
     &__3{
         padding-top: 4.437rem;
+        cursor: pointer;
 
         @include breakpoint-up(medium){
             display: flex;

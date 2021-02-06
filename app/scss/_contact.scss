@@ -1,0 +1,38 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(78, 77, 77, 0.85);
+    font-size: $font-sm;
+    padding-top: 4.437rem;
+    padding-bottom: 4.437rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+
+    @include breakpoint-up(medium){
+        font-size: $font-md;
+    }
+
+
+
+    &__email{
+        
+
+
+        a{
+            cursor: pointer;
+            color: $black;
+            font-weight: 400;
+        }
+        
+
+        
+
+}
+
+
+
+
+
+}

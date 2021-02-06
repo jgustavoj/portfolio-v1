@@ -491,6 +491,7 @@ body {
 
 .project__1 {
   padding-top: 4.437rem;
+  cursor: pointer;
 }
 
 @media (min-width: 40em) {
@@ -538,6 +539,7 @@ body {
 
 .project__2 {
   padding-top: 4.437rem;
+  cursor: pointer;
 }
 
 @media (min-width: 40em) {
@@ -588,6 +590,7 @@ body {
 
 .project__3 {
   padding-top: 4.437rem;
+  cursor: pointer;
 }
 
 @media (min-width: 40em) {
@@ -652,5 +655,36 @@ body {
 .project__description p {
   color: rgba(78, 77, 77, 0.85);
   font-size: 1rem;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1rem;
+  padding-top: 4.437rem;
+  padding-bottom: 4.437rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 40em) {
+  .contact {
+    font-size: 1.2rem;
+  }
+}
+
+.contact__email a {
+  cursor: pointer;
+  color: black;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
