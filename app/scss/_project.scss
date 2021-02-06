@@ -10,8 +10,8 @@
   
 
     &__content{
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        // margin-left: 1.5rem;
+        // margin-right: 1.5rem;
 
     
 
@@ -24,20 +24,20 @@
 
         }
 
-        @include breakpoint-up(medium){
-            margin-left: 4rem;
-            margin-right: 4rem;
-        }
+        // @include breakpoint-up(medium){
+        //     margin-left: 4rem;
+        //     margin-right: 4rem;
+        // }
 
-        @include breakpoint-up(large){
-            margin-left: 6.5rem;
-            margin-right: 6.5rem;
-        }
+        // @include breakpoint-up(large){
+        //     margin-left: 6.5rem;
+        //     margin-right: 6.5rem;
+        // }
 
-        @include breakpoint-up(xlarge){
-            margin-left: 14.5rem;
-            margin-right: 14.5rem;
-        }
+        // @include breakpoint-up(xlarge){
+        //     margin-left: 14.5rem;
+        //     margin-right: 14.5rem;
+        // }
 
     }
 
