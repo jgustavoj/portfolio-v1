@@ -64,6 +64,10 @@ body{
         justify-content: space-between;
     }
 
+    &-jc-se{
+        justify-content: space-evenly;
+    }
+
     &-jc-c{
         justify-content: center;
     }
@@ -71,6 +75,8 @@ body{
     &-ai-c{
         align-items: center;
     }
+
+    
 }
 
 

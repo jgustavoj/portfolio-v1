@@ -6,19 +6,191 @@
         margin-left: 1.5rem;
         margin-right: 1.5rem;
 
+    
+
+        h1{ // Section Title
+            margin: 0;
+
+            @include breakpoint-up(medium){
+                margin: 1.5rem 0 1.5rem 0;
+            }
+
+        }
+
+        @include breakpoint-up(medium){
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+
+        @include breakpoint-up(large){
+            margin-left: 6.5rem;
+            margin-right: 6.5rem;
+        }
+
+        @include breakpoint-up(xlarge){
+            margin-left: 14.5rem;
+            margin-right: 14.5rem;
+        }
+
     }
 
     &__1{
+        padding-top: 4.437rem;
+
+
+       @include breakpoint-up(medium){
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            overflow: hidden; //makes sure the rounded corners will show up
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+            transition: all 150ms ease-in-out;
+            border-radius: 10px;
+            background-color: $veryLightGrey;
+            padding: 1rem;
+            margin-bottom: 2rem;
+
+            &:hover{
+                transform: scale(1.05);
+            
+            }
+
+         
+
+       }
+    }
+
+    &__image1{
+        background-image: url(/images/dummy-image1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 24.4375rem;
+        width: 100%;
+        border-radius: 10px;
+        
+
+        @include breakpoint-up(large){
+            width: 50%;
+        }
+
+    }
+ 
+    &__2{ 
+        padding-top: 4.437rem;
+        
+        @include breakpoint-up(medium){
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            overflow: hidden; //makes sure the rounded corners will show up
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+            transition: all 150ms ease-in-out;
+            border-radius: 10px;
+            background-color: $veryLightGrey;
+            padding: 1rem;
+            margin-bottom: 2rem;
+
+            &:hover{
+                transform: scale(1.05);
+            
+            }
+
+         
+
+       }
 
 
     }
 
-    &__2{
+    &__image2{
+        background-image: url(/images/dummy-image2.png);
+        order: 2;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 24.4375rem;
+        width: 100%;
+        border-radius: 10px;
+        
+
+        @include breakpoint-up(large){
+            width: 50%;
+        }
+
+      
 
 
     }
 
     &__3{
+        padding-top: 4.437rem;
+
+        @include breakpoint-up(medium){
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            overflow: hidden; //makes sure the rounded corners will show up
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+            transition: all 150ms ease-in-out;
+            border-radius: 10px;
+            background-color: $veryLightGrey;
+            padding: 1rem;
+            margin-bottom: 2rem;
+
+            &:hover{
+                transform: scale(1.05);
+            
+            }
+
+         
+
+       }
+
+    }
+
+    &__image3{
+        background-image: url(/images/dummy-image3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 24.4375rem;
+        width: 100%;
+        border-radius: 10px;
+        
+
+        @include breakpoint-up(large){
+            width: 50%;
+        }
+
+    
+
+
+
+    }
+
+    
+    &__description{
+        margin-top: 1.75rem;
+
+        @include breakpoint-up(medium){
+            margin: 1rem;
+        }
+
+        b{
+            @include breakpoint-up(medium){
+              font-size: 1.4rem;
+            }
+         }
+              
+          p{
+            color: $lightGrey;
+            font-size: $font-sm;
+      
+            // @include breakpoint-up(medium){
+            //   font-size: $font-md;
+            // }
+          }
 
 
     }
