@@ -168,6 +168,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: rgba(196, 196, 196, 0.26);
   width: 104%;
   padding-top: 3.6875rem;
   padding-bottom: 6.688rem;
