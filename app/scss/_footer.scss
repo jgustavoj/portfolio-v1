@@ -3,6 +3,14 @@
     //margin-top: 4.437rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
+
+    // width: 100vw;
+    // position: relative;
+    // left: 50%;
+    // right: 50%;
+    // margin-left: -50vw;
+    // margin-right: -50vw;
 
     @include breakpoint-up(large){
         padding: 0;

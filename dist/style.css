@@ -133,6 +133,10 @@ body {
   }
 }
 
+.header {
+  background: white;
+}
+
 .header nav {
   background-color: black;
   padding-top: 0.875rem;
@@ -293,6 +297,12 @@ body {
   padding-top: 4.437rem;
   padding-bottom: 4.437rem;
   background-color: white;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .about__content {

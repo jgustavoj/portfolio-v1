@@ -1,9 +1,13 @@
 .header{
+   // --contentWidth: 100%;
+   background: $white;
+
 
     
 
 
     nav{
+        //max-width: var(--contentWidth);
         background-color: $black;
         padding-top: 0.875rem;
         padding-bottom: 0.875rem;
