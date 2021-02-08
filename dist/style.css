@@ -159,10 +159,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: rgba(196, 196, 196, 0.26);
-  width: 104%;
+  width: 113%;
   padding-top: 3.6875rem;
-  padding-bottom: 6.688rem;
-  padding-left: 1rem;
+  padding-bottom: 5.688rem;
   margin-top: 4.6875rem;
   margin-bottom: 4.6875rem;
   z-index: 1;
@@ -170,15 +169,16 @@ body {
 
 @media (min-width: 40em) {
   .hero__heading {
-    width: 85%;
-    margin-left: 5rem;
+    width: 78%;
+    margin-left: 0%;
     margin-right: 5rem;
+    padding-left: 1rem;
   }
 }
 
 @media (min-width: 64em) {
   .hero__heading {
-    margin-left: 12%;
+    width: 66%;
     margin-right: 7rem;
     padding-bottom: 3.688rem;
   }
@@ -186,7 +186,7 @@ body {
 
 @media (min-width: 87.5em) {
   .hero__heading {
-    margin-left: 16%;
+    width: 57%;
   }
 }
 
@@ -209,7 +209,7 @@ body {
 @media (min-width: 40em) {
   .hero__rectangle {
     width: 85%;
-    margin-left: -13rem;
+    margin-left: -10rem;
     margin-bottom: -6.312rem;
   }
 }
@@ -225,17 +225,21 @@ body {
 @media (min-width: 87.5em) {
   .hero__rectangle {
     width: 88%;
+    margin-left: -13rem;
+    margin-right: -27rem;
   }
 }
 
 .hero__text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 1.16rem;
   line-height: 2.5rem;
   padding-left: 1rem;
+  color: rgba(71, 83, 94, 0.89);
 }
 
 .hero__text b {
+  color: rgba(0, 0, 0, 0.767);
   font-weight: 700;
 }
 
@@ -260,22 +264,21 @@ body {
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  margin-top: 1.5rem;
-  top: 73%;
-  left: 32%;
+  top: 70%;
+  left: 33%;
 }
 
 @media (min-width: 40em) {
   .hero__social {
-    left: 39%;
-    margin-top: 2.5rem;
+    left: 32%;
+    top: 73%;
   }
 }
 
 @media (min-width: 64em) {
   .hero__social {
-    left: 75%;
-    top: 40%;
+    left: 74%;
+    top: 46%;
   }
 }
 
@@ -293,6 +296,10 @@ body {
 
 .about__text {
   margin: 2.8125rem 0;
+}
+
+.about__text b {
+  font-family: 'DM Serif Display', serif;
 }
 
 @media (min-width: 40em) {
@@ -397,6 +404,7 @@ body {
 }
 
 .project__content h1 {
+  font-family: 'DM Serif Display', serif;
   margin: 0;
 }
 
@@ -567,6 +575,10 @@ body {
   }
 }
 
+.project__description b {
+  font-family: 'DM Serif Display', serif;
+}
+
 @media (min-width: 40em) {
   .project__description b {
     font-size: 1.4rem;
@@ -604,6 +616,7 @@ body {
 }
 
 .contact__email a {
+  font-family: 'DM Serif Display', serif;
   cursor: pointer;
   color: black;
   font-weight: 400;
@@ -738,6 +751,7 @@ body {
 }
 
 .footer__year {
+  font-family: 'DM Serif Display', serif;
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: year;

@@ -82,6 +82,8 @@
     margin: 2.8125rem 0;
 
     b{
+      font-family:  'DM Serif Display', serif;
+
       @include breakpoint-up(medium){
         font-size: 1.4rem;
       }

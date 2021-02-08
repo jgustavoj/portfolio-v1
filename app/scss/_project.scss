@@ -16,6 +16,7 @@
     
 
         h1{ // Section Title
+            font-family:  'DM Serif Display', serif;
             margin: 0;
 
             @include breakpoint-up(medium){
@@ -186,6 +187,7 @@
         }
 
         b{
+            font-family:  'DM Serif Display', serif;
             @include breakpoint-up(medium){
               font-size: 1.4rem;
             }
