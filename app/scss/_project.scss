@@ -44,7 +44,7 @@
     &__1{
         padding-top: 4.437rem;
         cursor: pointer;
-
+        width: 100%;
 
        @include breakpoint-up(medium){
             display: flex;
@@ -62,9 +62,6 @@
                 transform: scale(1.05);
             
             }
-
-         
-
        }
     }
 
@@ -76,10 +73,10 @@
         min-height: 24.4375rem;
         width: 100%;
         border-radius: 10px;
-        
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(medium){
             width: 50%;
+            
         }
 
     }
@@ -87,6 +84,8 @@
     &__2{ 
         padding-top: 4.437rem;
         cursor: pointer;
+        width: 100%;
+
         
         @include breakpoint-up(medium){
             display: flex;
@@ -123,7 +122,7 @@
         border-radius: 10px;
         
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(medium){
             width: 50%;
         }
 
@@ -135,6 +134,8 @@
     &__3{
         padding-top: 4.437rem;
         cursor: pointer;
+        width: 100%;
+
 
         @include breakpoint-up(medium){
             display: flex;
@@ -169,19 +170,16 @@
         border-radius: 10px;
         
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(medium){
             width: 50%;
         }
-
-    
-
-
 
     }
 
     
     &__description{
         margin-top: 1.75rem;
+        width: 50%;
 
         @include breakpoint-up(medium){
             margin: 1rem;

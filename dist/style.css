@@ -415,6 +415,7 @@ body {
 .project__1 {
   padding-top: 4.437rem;
   cursor: pointer;
+  width: 100%;
 }
 
 @media (min-width: 40em) {
@@ -454,7 +455,7 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .project__image1 {
     width: 50%;
   }
@@ -463,6 +464,7 @@ body {
 .project__2 {
   padding-top: 4.437rem;
   cursor: pointer;
+  width: 100%;
 }
 
 @media (min-width: 40em) {
@@ -505,7 +507,7 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .project__image2 {
     width: 50%;
   }
@@ -514,6 +516,7 @@ body {
 .project__3 {
   padding-top: 4.437rem;
   cursor: pointer;
+  width: 100%;
 }
 
 @media (min-width: 40em) {
@@ -553,7 +556,7 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .project__image3 {
     width: 50%;
   }
@@ -561,6 +564,7 @@ body {
 
 .project__description {
   margin-top: 1.75rem;
+  width: 50%;
 }
 
 @media (min-width: 40em) {
