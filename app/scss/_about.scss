@@ -2,6 +2,13 @@
   padding-top: 4.437rem;
   padding-bottom: 4.437rem;
   background-color: $white;
+  
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 
   
   // @include breakpoint-up(xlarge){
@@ -12,28 +19,27 @@
 
 
   &__content{
- 
-   
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+  
+    // margin-left: 1.5rem;
+    // margin-right: 1.5rem;
 
     
-    @include breakpoint-up(medium){
-      margin-left: 4rem;
-      margin-right: 4rem;
+    // @include breakpoint-up(medium){
+    //   margin-left: 4rem;
+    //   margin-right: 4rem;
+    
  
-     }
+    //  }
  
-     @include breakpoint-up(large){
-        margin-left: 6.5rem;
-      margin-right: 6.5rem;
-     }
+    //  @include breakpoint-up(large){
+    //     margin-left: 6.5rem;
+    //   margin-right: 6.5rem;
+    //  }
  
-     @include breakpoint-up(xlarge){
-      margin-left: 14.5rem;
-      margin-right: 14.5rem;
-
-     }
+    //  @include breakpoint-up(xlarge){
+    //   margin-left: 14.5rem;
+    //   margin-right: 14.5rem;
+    //  }
    
  
 
@@ -41,39 +47,43 @@
   }
 
   &__image{
-    background-image: url(/images/resize.jpg);
-    background-size: cover;
-   //background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 8.875rem;
-    width: auto;
-    border-radius: 10px;
+    // background-image: url(/images/resize.jpg);
+    // background-size: cover;
+    // //background-size: 100%;
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    // min-height: 8.875rem;
+    // width: auto;
+    // border-radius: 10px;
+   
 
+  //   @include breakpoint-up(medium){
+  //     //background-size: 90%;
+  //     height: 20.875rem;
+
+  //   }
+
+  //   @include breakpoint-up(large){
+  //     //background-size: 80%;
+  //     height: 27.875rem;
+  //   }
+
+  //   @include breakpoint-up(xlarge){
+  //     //background-size: 70%;
+  //     height: 35.875rem;
+  //   }
+  }
     
 
-    @include breakpoint-up(medium){
-      //background-size: 90%;
-      height: 20.875rem;
-
-    }
-
-    @include breakpoint-up(large){
-      //background-size: 80%;
-      height: 27.875rem;
-    }
-
-    @include breakpoint-up(xlarge){
-      //background-size: 70%;
-      height: 35.875rem;
-    }
-  }
+  
 
   &__text{
-
+    
     margin: 2.8125rem 0;
 
     b{
+      font-family:  'DM Serif Display', serif;
+
       @include breakpoint-up(medium){
         font-size: 1.4rem;
       }

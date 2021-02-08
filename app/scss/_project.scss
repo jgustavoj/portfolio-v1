@@ -10,12 +10,13 @@
   
 
     &__content{
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        // margin-left: 1.5rem;
+        // margin-right: 1.5rem;
 
     
 
         h1{ // Section Title
+            font-family:  'DM Serif Display', serif;
             margin: 0;
 
             @include breakpoint-up(medium){
@@ -24,27 +25,27 @@
 
         }
 
-        @include breakpoint-up(medium){
-            margin-left: 4rem;
-            margin-right: 4rem;
-        }
+        // @include breakpoint-up(medium){
+        //     margin-left: 4rem;
+        //     margin-right: 4rem;
+        // }
 
-        @include breakpoint-up(large){
-            margin-left: 6.5rem;
-            margin-right: 6.5rem;
-        }
+        // @include breakpoint-up(large){
+        //     margin-left: 6.5rem;
+        //     margin-right: 6.5rem;
+        // }
 
-        @include breakpoint-up(xlarge){
-            margin-left: 14.5rem;
-            margin-right: 14.5rem;
-        }
+        // @include breakpoint-up(xlarge){
+        //     margin-left: 14.5rem;
+        //     margin-right: 14.5rem;
+        // }
 
     }
 
     &__1{
         padding-top: 4.437rem;
         cursor: pointer;
-
+        width: 100%;
 
        @include breakpoint-up(medium){
             display: flex;
@@ -62,9 +63,6 @@
                 transform: scale(1.05);
             
             }
-
-         
-
        }
     }
 
@@ -76,10 +74,10 @@
         min-height: 24.4375rem;
         width: 100%;
         border-radius: 10px;
-        
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(medium){
             width: 50%;
+            
         }
 
     }
@@ -87,6 +85,8 @@
     &__2{ 
         padding-top: 4.437rem;
         cursor: pointer;
+        width: 100%;
+
         
         @include breakpoint-up(medium){
             display: flex;
@@ -123,7 +123,7 @@
         border-radius: 10px;
         
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(medium){
             width: 50%;
         }
 
@@ -135,6 +135,8 @@
     &__3{
         padding-top: 4.437rem;
         cursor: pointer;
+        width: 100%;
+
 
         @include breakpoint-up(medium){
             display: flex;
@@ -169,25 +171,23 @@
         border-radius: 10px;
         
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(medium){
             width: 50%;
         }
-
-    
-
-
 
     }
 
     
     &__description{
         margin-top: 1.75rem;
+        width: 50%;
 
         @include breakpoint-up(medium){
             margin: 1rem;
         }
 
         b{
+            font-family:  'DM Serif Display', serif;
             @include breakpoint-up(medium){
               font-size: 1.4rem;
             }
