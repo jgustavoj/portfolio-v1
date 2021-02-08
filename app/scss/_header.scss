@@ -1,6 +1,6 @@
 .header{
    // --contentWidth: 100%;
-   background: $white;
+   background: $black;
 
 
     
@@ -13,10 +13,10 @@
         padding-bottom: 0.875rem;
 
 
-        @include breakpoint-up(large){
-            background-color: $white;
+        // @include breakpoint-up(large){
+        //     background-color: $white;
           
-        }
+        // }
         
     }
 

@@ -126,19 +126,13 @@ body {
 }
 
 .header {
-  background: white;
+  background: black;
 }
 
 .header nav {
   background-color: black;
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
-}
-
-@media (min-width: 64em) {
-  .header nav {
-    background-color: white;
-  }
 }
 
 .header__logo img {
