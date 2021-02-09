@@ -13,15 +13,25 @@
         // margin-left: 1.5rem;
         // margin-right: 1.5rem;
 
+       // a { 
+       
+            a { 
+                color: $black;
+                text-decoration: none; 
+            } 
+            a:hover { 
+                color: $lightGrey;
+                text-decoration: none; 
+            } 
+       // }
+       
     
 
         h1{ // Section Title
             font-family:  'DM Serif Display', serif;
-            margin: 0;
+            margin: 1.5rem 0;
 
-            @include breakpoint-up(medium){
-                margin: 1.5rem 0 1.5rem 0;
-            }
+          
 
         }
 
@@ -46,6 +56,7 @@
         padding-top: 4.437rem;
         cursor: pointer;
         width: 100%;
+
 
        @include breakpoint-up(medium){
             display: flex;
@@ -180,7 +191,11 @@
     
     &__description{
         margin-top: 1.75rem;
-        width: 50%;
+        width: 100%;
+
+        @include breakpoint-up(medium){
+            width: 50%;
+        }
 
         @include breakpoint-up(medium){
             margin: 1rem;
