@@ -124,11 +124,11 @@
     }
 
     &__image2{
-        background-image: url(/images/dummy-image2.png);
+        background-image: url(/images/project-2/contact-management.png);
         order: 2;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center left;
         min-height: 24.4375rem;
         width: 100%;
         border-radius: 10px;
@@ -173,10 +173,10 @@
     }
 
     &__image3{
-        background-image: url(/images/dummy-image3.png);
+        background-image: url(/images/project-3/star-wars-1.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center right;
         min-height: 24.4375rem;
         width: 100%;
         border-radius: 10px;
@@ -211,6 +211,7 @@
           p{
             color: $lightGrey;
             font-size: $font-sm;
+            margin-top: 1rem;
       
             // @include breakpoint-up(medium){
             //   font-size: $font-md;

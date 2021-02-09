@@ -501,13 +501,13 @@ body {
 }
 
 .project__image2 {
-  background-image: url(/images/dummy-image2.png);
+  background-image: url(/images/project-2/contact-management.png);
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center left;
   min-height: 24.4375rem;
   width: 100%;
   border-radius: 10px;
@@ -553,10 +553,10 @@ body {
 }
 
 .project__image3 {
-  background-image: url(/images/dummy-image3.png);
+  background-image: url(/images/project-3/star-wars-1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center right;
   min-height: 24.4375rem;
   width: 100%;
   border-radius: 10px;
@@ -598,6 +598,7 @@ body {
 .project__description p {
   color: rgba(78, 77, 77, 0.85);
   font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .contact {
