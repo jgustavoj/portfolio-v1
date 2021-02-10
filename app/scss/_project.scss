@@ -227,4 +227,20 @@
 
     }
 
+    &__link{
+
+            color: $black !important    ;
+            text-decoration: underline; 
+            margin: 0 2rem;
+        
+        &:hover { 
+            color: $black !important;
+            //text-decoration: underline;
+        } 
+
+        i{
+            margin-left: 0.5rem;
+        }
+    }
+
 }

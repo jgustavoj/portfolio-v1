@@ -612,6 +612,20 @@ body, html {
   margin-top: 1rem;
 }
 
+.project__link {
+  color: black !important;
+  text-decoration: underline;
+  margin: 0 2rem;
+}
+
+.project__link:hover {
+  color: black !important;
+}
+
+.project__link i {
+  margin-left: 0.5rem;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
