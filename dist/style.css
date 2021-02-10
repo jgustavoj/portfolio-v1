@@ -658,6 +658,10 @@ body, html {
   font-weight: 400;
 }
 
+.contact__email a i {
+  margin-left: 0.2rem;
+}
+
 .footer {
   background-color: black;
   padding-top: 2rem;
