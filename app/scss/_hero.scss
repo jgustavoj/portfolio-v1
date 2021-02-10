@@ -110,6 +110,7 @@
         gap: 1rem;
         top: 70%;
         left: 33%;
+        z-index: 1;
 
         @include breakpoint-up(medium){
             left: 32%;
