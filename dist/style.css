@@ -420,13 +420,14 @@ body, html {
 
 .project__content h1 {
   font-family: 'DM Serif Display', serif;
-  margin: 1.5rem 0;
+  margin: 0 0 4.437rem 0;
 }
 
 .project__1 {
   padding-top: 4.437rem;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 40em) {
@@ -448,7 +449,6 @@ body, html {
     border-radius: 10px;
     background-color: rgba(196, 196, 196, 0.26);
     padding: 1rem;
-    margin-bottom: 2rem;
   }
   .project__1:hover {
     -webkit-transform: scale(1.05);
@@ -476,6 +476,7 @@ body, html {
   padding-top: 4.437rem;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 40em) {
@@ -497,7 +498,6 @@ body, html {
     border-radius: 10px;
     background-color: rgba(196, 196, 196, 0.26);
     padding: 1rem;
-    margin-bottom: 2rem;
   }
   .project__2:hover {
     -webkit-transform: scale(1.05);
@@ -528,6 +528,7 @@ body, html {
   padding-top: 4.437rem;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 40em) {
@@ -549,7 +550,6 @@ body, html {
     border-radius: 10px;
     background-color: rgba(196, 196, 196, 0.26);
     padding: 1rem;
-    margin-bottom: 2rem;
   }
   .project__3:hover {
     -webkit-transform: scale(1.05);
@@ -576,6 +576,12 @@ body, html {
 .project__description {
   margin-top: 1.75rem;
   width: 100%;
+}
+
+@media (max-width: 63.9375em) {
+  .project__description {
+    margin-bottom: 3rem;
+  }
 }
 
 @media (min-width: 40em) {

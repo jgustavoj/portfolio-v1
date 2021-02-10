@@ -29,8 +29,7 @@
 
         h1{ // Section Title
             font-family:  'DM Serif Display', serif;
-            margin: 1.5rem 0;
-
+            margin: 0 0 4.437rem 0;
           
 
         }
@@ -56,6 +55,8 @@
         padding-top: 4.437rem;
         cursor: pointer;
         width: 100%;
+        margin-bottom: 3rem;
+
 
 
        @include breakpoint-up(medium){
@@ -68,7 +69,6 @@
             border-radius: 10px;
             background-color: $veryLightGrey;
             padding: 1rem;
-            margin-bottom: 2rem;
 
             &:hover{
                 transform: scale(1.05);
@@ -97,8 +97,9 @@
         padding-top: 4.437rem;
         cursor: pointer;
         width: 100%;
+        margin-bottom: 3rem;
 
-        
+
         @include breakpoint-up(medium){
             display: flex;
             align-items: center;
@@ -109,7 +110,6 @@
             border-radius: 10px;
             background-color: $veryLightGrey;
             padding: 1rem;
-            margin-bottom: 2rem;
 
             &:hover{
                 transform: scale(1.05);
@@ -147,6 +147,8 @@
         padding-top: 4.437rem;
         cursor: pointer;
         width: 100%;
+        margin-bottom: 3rem;
+
 
 
         @include breakpoint-up(medium){
@@ -159,7 +161,6 @@
             border-radius: 10px;
             background-color: $veryLightGrey;
             padding: 1rem;
-            margin-bottom: 2rem;
 
             &:hover{
                 transform: scale(1.05);
@@ -192,6 +193,11 @@
     &__description{
         margin-top: 1.75rem;
         width: 100%;
+        
+        @include breakpoint-down(medium){
+            margin-bottom: 3rem;
+
+        }
 
         @include breakpoint-up(medium){
             width: 50%;
