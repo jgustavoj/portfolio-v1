@@ -42,6 +42,13 @@ body, html {
   display: flex;
 }
 
+.flex-fd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .flex-jc-sb {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -798,5 +805,92 @@ body, html {
   -ms-grid-column-align: center;
       justify-self: center;
   color: white;
+}
+
+.project1 {
+  padding-top: 4.437rem;
+  padding-bottom: 4.437rem;
+  line-height: 1.7;
+}
+
+.project1__intro h1 {
+  font-family: 'DM Serif Display', serif !important;
+  margin: 0 0 4.437rem 0;
+}
+
+.project1__intro p {
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.project1__image1 {
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project1__text p {
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1.2rem;
+  margin: 3rem 0;
+}
+
+.project1__link {
+  line-height: 1.3;
+}
+
+.project1__link h5 {
+  font-weight: 600;
+}
+
+.project1__link p {
+  font-size: 1rem;
+  color: black;
+  margin: 0.5rem 0;
+}
+
+.project1__link a {
+  color: black;
+}
+
+.project1__link a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.project1__link a i {
+  margin-left: 0.5rem;
+}
+
+.project1__grid {
+  width: 100%;
+  height: auto;
+}
+
+.project1__grid .img-fluid {
+  margin: 3rem 0;
+  width: 90%;
+  height: auto;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project1 a {
+  color: black;
+}
+
+.project1 a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.project1 a i {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 63.9375em) {
+  .project1 a {
+    text-decoration: underline;
+  }
 }
 /*# sourceMappingURL=style.css.map */

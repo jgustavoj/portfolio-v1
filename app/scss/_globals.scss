@@ -63,6 +63,9 @@ body, html{
 .flex{
     display: flex;
 
+    &-fd-c{
+        flex-direction: column;
+    }
 
     &-jc-sb{
         justify-content: space-between;
