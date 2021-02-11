@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -21,35 +20,67 @@
 
     <header class="header">
         <nav class="container container--pall">
-            <!-- <div class="container"> -->
             <a href="/" class="header__logo">
                 <img src="/images/muffin-light.svg" alt="Muffin">
             </a>
-            <!-- <a href="/" class="header__logo--dark">
-                <img class="hide-for-mobile" src="./images/muffin-dark.svg" alt="Muffin">
-            </a> -->
-            <!-- </div> -->
         </nav>
     </header>
-    <div class="project2 container">
-        <div class="project2__intro"></div>
-        <div class="project2__image1"></div>
-        <div class="project2__text">
-            <div class="project2__link"></div>
+
+    <div class="project1 container">
+        <div class="project1__intro">
+            <h1>Contact Management Application</h1>
+            <p>This is a full-Stack Interactive Application that allows you to utilize CRUD for all contacts in the
+                database. It uses context as a global state in order to efficiently share component values throughout
+                the application.</p>
         </div>
-        <div class="project2__image-grid"></div>
-        <div class="project2__image-full"></div>
+        <div class="project1__image1"> <img class="img-fluid rounded" src="/images/project-2/contact-management.png"
+                alt=""></div>
+        <div class="project1__text">
+
+            <p>Understanding CRUD (Create, Read, Update and Delete) is an essential operation that is feature in most
+                common application. I built a complete backend with flask and an ORM (SQLAlchemy) and the front-end with
+                React.js.
+                I got to utilize Hooks, context and flux architecture in this application.
+            </p>
+            <div class="project1__link flex flex-jc-se">
+                <div class="project1__technologies">
+                    <h5>Technologies</h5>
+                    <p>React</p>
+                    <p>Python</p>
+                    <p>Flask</p>
+                    <p>SQLAlchemy</p>
+                    <p>Context</p>
+                    <p>Scss</p>
+
+                </div>
+                <div class="project1__live">
+                    <h5>Source</h5>
+                    <p> Live Coming Soon</p>
+                    <a href="https://github.com/jgustavoj/react-contact-management-application-project">Repository <i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="project1__grid flex flex-fd-c flex-ai-c">
+            <img class="img-fluid rounded" src="/images/project-2/contact-management-2.png" alt="">
+            <img class="img-fluid rounded" src="/images/project-2/contact-management-3.png" alt="">
+
+        </div>
+
+        <a href="javascript: goBack() "> Let's go back</a>
+
+
     </div>
 
 
-    <footer class="fixed-bottom footer">
+    <footer class="footer">
         <div class="footer__content">
             <a href="/" class="footer__logo">
                 <img src="/images/muffin-light.svg" alt="Muffin">
             </a>
-            <!-- <div class="footer__btt">
-                Back To Top
-            </div> -->
             <div class="footer__social">
                 <a class="footer__mail" href="#"><i class="far fa-envelope fa-2x"></i></a>
                 <a class="footer__linkedin" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
@@ -70,6 +101,6 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 
-    <script src="app/js/home.js"></script>
+    <script src="/app/js/home.js"></script>
 
 </body>

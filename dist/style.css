@@ -324,6 +324,7 @@ body, html {
   color: rgba(78, 77, 77, 0.85);
   font-size: 1rem;
   margin: 2.5rem 0;
+  line-height: 1.6;
 }
 
 @media (min-width: 40em) {
@@ -808,14 +809,14 @@ body, html {
 }
 
 .project1 {
-  padding-top: 4.437rem;
+  padding-top: 2.437rem;
   padding-bottom: 4.437rem;
   line-height: 1.7;
 }
 
 .project1__intro h1 {
   font-family: 'DM Serif Display', serif !important;
-  margin: 0 0 4.437rem 0;
+  margin: 0 0 2.437rem 0;
 }
 
 .project1__intro p {
@@ -890,6 +891,180 @@ body, html {
 
 @media (max-width: 63.9375em) {
   .project1 a {
+    text-decoration: underline;
+  }
+}
+
+.project2 {
+  padding-top: 2.437rem;
+  padding-bottom: 4.437rem;
+  line-height: 1.7;
+}
+
+.project2__intro h1 {
+  font-family: 'DM Serif Display', serif !important;
+  margin: 0 0 2.437rem 0;
+}
+
+.project2__intro p {
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.project2__image1 {
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project2__text p {
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1.2rem;
+  margin: 3rem 0;
+}
+
+.project2__link {
+  line-height: 1.3;
+}
+
+.project2__link h5 {
+  font-weight: 600;
+}
+
+.project2__link p {
+  font-size: 1rem;
+  color: black;
+  margin: 0.5rem 0;
+}
+
+.project2__link a {
+  color: black;
+}
+
+.project2__link a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.project2__link a i {
+  margin-left: 0.5rem;
+}
+
+.project2__grid {
+  width: 100%;
+  height: auto;
+}
+
+.project2__grid .img-fluid {
+  margin: 3rem 0;
+  width: 90%;
+  height: auto;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project2 a {
+  color: black;
+}
+
+.project2 a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.project2 a i {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 63.9375em) {
+  .project2 a {
+    text-decoration: underline;
+  }
+}
+
+.project3 {
+  padding-top: 2.437rem;
+  padding-bottom: 4.437rem;
+  line-height: 1.7;
+}
+
+.project3__intro h1 {
+  font-family: 'DM Serif Display', serif !important;
+  margin: 0 0 2.437rem 0;
+}
+
+.project3__intro p {
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.project3__image1 {
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project3__text p {
+  color: rgba(78, 77, 77, 0.85);
+  font-size: 1.2rem;
+  margin: 3rem 0;
+}
+
+.project3__link {
+  line-height: 1.3;
+}
+
+.project3__link h5 {
+  font-weight: 600;
+}
+
+.project3__link p {
+  font-size: 1rem;
+  color: black;
+  margin: 0.5rem 0;
+}
+
+.project3__link a {
+  color: black;
+}
+
+.project3__link a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.project3__link a i {
+  margin-left: 0.5rem;
+}
+
+.project3__grid {
+  width: 100%;
+  height: auto;
+}
+
+.project3__grid .img-fluid {
+  margin: 3rem 0;
+  width: 90%;
+  height: auto;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project3 a {
+  color: black;
+}
+
+.project3 a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.project3 a i {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 63.9375em) {
+  .project3 a {
     text-decoration: underline;
   }
 }

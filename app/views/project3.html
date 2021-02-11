@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -21,34 +20,65 @@
 
     <header class="header">
         <nav class="container container--pall">
-            <!-- <div class="container"> -->
             <a href="/" class="header__logo">
                 <img src="/images/muffin-light.svg" alt="Muffin">
             </a>
-            <!-- <a href="/" class="header__logo--dark">
-                <img class="hide-for-mobile" src="./images/muffin-dark.svg" alt="Muffin">
-            </a> -->
-            <!-- </div> -->
         </nav>
     </header>
-    <div class="project3 container">
-        <div class="project3__intro"></div>
-        <div class="project3__image1"></div>
-        <div class="project3__text">
-            <div class="project3__link"></div>
+    <div class="project1 container">
+        <div class="project1__intro">
+            <h1>Star Wars Blog</h1>
+            <p>A Front-End blog that illustrates Star Wars details. The application utilizes an API to display
+                information on characters, planets and star-ships general information on the films from the official
+                website for any fan to enjoy. It uses props and context and the top level in order to dynamically fetch
+                and pass data to its children.</p>
         </div>
-        <div class="project3__image-grid"></div>
-        <div class="project3__image-full"></div>
+        <div class="project1__image1"> <img class="img-fluid rounded" src="/images/project-3/star-wars.png" alt="">
+        </div>
+        <div class="project1__text">
+
+            <p>The main objective for this project was to apply a communication with an API. I also intergrated a
+                favorites button on bootstrap cards
+                in order to add them onto a "cart" placed on the navbar to replicate the use of a shopping cart -
+                commonly used in typical e-commerce applications.
+            </p>
+            <div class="project1__link flex flex-jc-se">
+                <div class="project1__technologies">
+                    <h5>Technologies</h5>
+                    <p>React</p>
+                    <p>Context</p>
+                    <p>API</p>
+                    <p>Bootstrap</p>
+                    <p>Scss</p>
+
+                </div>
+                <div class="project1__live">
+                    <h5>Source</h5>
+                    <p> Live Coming Soon</p>
+                    <a href="https://github.com/jgustavoj/react-star-wars-blog-project">Repository <i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="project1__grid flex flex-fd-c flex-ai-c">
+            <img class="img-fluid rounded" src="/images/project-3/star-wars-1.png" alt="">
+            <img class="img-fluid rounded" src="/images/project-3/star-wars-2.png" alt="">
+
+        </div>
+
+        <a href="javascript: goBack() "> Let's go back</a>
+
+
     </div>
 
-    <footer class="fixed-bottom footer">
+    <footer class="footer">
         <div class="footer__content">
             <a href="/" class="footer__logo">
                 <img src="/images/muffin-light.svg" alt="Muffin">
             </a>
-            <!-- <div class="footer__btt">
-                Back To Top
-            </div> -->
             <div class="footer__social">
                 <a class="footer__mail" href="#"><i class="far fa-envelope fa-2x"></i></a>
                 <a class="footer__linkedin" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
@@ -69,6 +99,6 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 
-    <script src="app/js/home.js"></script>
+    <script src="/app/js/home.js"></script>
 
 </body>

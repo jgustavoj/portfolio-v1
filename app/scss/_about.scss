@@ -10,68 +10,16 @@
   margin-left: -50vw;
   margin-right: -50vw;
 
-  
-  // @include breakpoint-up(xlarge){
-  //   padding-right: 10.437rem; //added left and right padding for testing
-  //   padding-left: 10.437rem;
-
-  // }
 
 
   &__content{
-  
-    // margin-left: 1.5rem;
-    // margin-right: 1.5rem;
 
-    
-    // @include breakpoint-up(medium){
-    //   margin-left: 4rem;
-    //   margin-right: 4rem;
-    
- 
-    //  }
- 
-    //  @include breakpoint-up(large){
-    //     margin-left: 6.5rem;
-    //   margin-right: 6.5rem;
-    //  }
- 
-    //  @include breakpoint-up(xlarge){
-    //   margin-left: 14.5rem;
-    //   margin-right: 14.5rem;
-    //  }
-   
- 
 
       
   }
 
   &__image{
-    // background-image: url(/images/resize.jpg);
-    // background-size: cover;
-    // //background-size: 100%;
-    // background-repeat: no-repeat;
-    // background-position: center center;
-    // min-height: 8.875rem;
-    // width: auto;
-    // border-radius: 10px;
-   
-
-  //   @include breakpoint-up(medium){
-  //     //background-size: 90%;
-  //     height: 20.875rem;
-
-  //   }
-
-  //   @include breakpoint-up(large){
-  //     //background-size: 80%;
-  //     height: 27.875rem;
-  //   }
-
-  //   @include breakpoint-up(xlarge){
-  //     //background-size: 70%;
-  //     height: 35.875rem;
-  //   }
+ 
   }
     
 
@@ -93,6 +41,7 @@
       color: $lightGrey;
       font-size: $font-sm;
       margin: 2.5rem 0;
+      line-height: 1.6;
 
       @include breakpoint-up(medium){
         font-size: $font-md;
