@@ -3,7 +3,12 @@
     padding-bottom: 4.437rem;
 
     &__content{
-    
+        text-align: center;
+
+        @include breakpoint-up(medium){
+            text-align: left;
+      
+          }
        
             a { 
                 color: $black;
@@ -17,7 +22,7 @@
        
     
 
-        h1{ // Section Title
+        h2{ // Section Title
             font-family:  'DM Serif Display', serif;
             margin: 0 0 4.437rem 0;
           
@@ -214,4 +219,16 @@
         }
     }
 
+    &__more{
+        text-align: center;
+        margin-top: 7rem !important;
+
+        @include breakpoint-up(medium){
+            margin-bottom: 2.437rem !important;
+
+        }
+
+    }
+
 }
+
